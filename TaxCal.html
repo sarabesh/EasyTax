@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Income Tax Calculator</title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body><hr><br><br>
+<div class="contain bg-info container" style="color:white">
+    <h1>Income Tax Calculator</h1>
+	<form action="Calc.php" method="post" name="form1" style="padding: 10px">
+	<br><br>
+  <label>gender :</label><input type="text" name="gender"/>
+<br><br>
+
+    <label>Enter annual income :</label>
+    <input type="number" name="annual" /><br>
+	<label>Enter other income :</label>
+    <input type="number" name="other" /><br>
+	<label>Enter fixed deposit : lic</label>
+    <input type="number" name="fd" /><br>
+	<label>Enter health insurance :</label>
+    <input type="number" name="hi" /><br>
+	<label font-size=10px>medical treatment(expenses) :</label>
+   
+	<input type="number" name="mt" /><br>
+	<label>loans and tution fess(premium) :</label>
+    <input type="number" name="landt" /><br>
+	<label>Enter rents to be paid :</label>
+    <input type="number" name="rent" /><br>   <br>
+<input type="submit"    name="submit" value="calculate" class="btn btn-primary"/>
+</form>
+ </div>
+ 
+</body>
+</html>
